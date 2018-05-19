@@ -2,6 +2,8 @@ body {
     background-color: #ECF0F1;
     max-width: 100%;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -62,7 +64,7 @@ body {
     grid-template-columns: repeat(6, 1fr);
     grid-row-gap: 5px;
     grid-column-gap: 5px;
-    background-color: blue;
+    background-color: #E7403C;
     position: relative;
     font-family: 'Courier New', Courier, monospace;
 
@@ -142,7 +144,7 @@ button:hover{
    background-color: #409FDD;
    color: black;
    padding: 20px 33px;
-   width: 137px;
+   width: 145px;
    cursor: pointer;
    border-width: 3px;
    border-style: solid;
