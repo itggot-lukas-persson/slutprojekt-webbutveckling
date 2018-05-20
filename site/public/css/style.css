@@ -1,5 +1,5 @@
 body {
-    background-color: #ECF0F1;
+    background-color: #E7403C;
     max-width: 100%;
     overflow-x: hidden;
     margin: 0;
@@ -31,19 +31,34 @@ body {
     grid-template-rows: repeat(1, 1fr);
     grid-template-columns: repeat(5, 1fr);
     background-color: #E7403C;
+    z-index: 1;
 }
 
 .header h1 {
-    grid-column: 2/5;
+    grid-column: 2/4;
     text-align: center;
     font-size: 10vw;
     font-family: 'Courier New', Courier, monospace;
+    font-style: italic; 
+}
+
+.material-icons.md-24 { 
+    grid-column: 5;
+    background-color: #409FDD;
+    border-width: 3px;
+    border-color: #2C3E50;
+    border-style: solid;
+    font-size: 48px;
+}
+
+.header button:hover {
+    background-color: #2980B9;
 }
 
 .bild {
-    grid-row: 2/5;
+    grid-row: 1/5;
     grid-column: 1/7;
-    background-color: aqua;
+    background-color: #ECF0F1;
 }
 
 .navherr {
@@ -77,7 +92,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     position:relative;
-    background-color: white;
+    background-color: #ECF0F1;
 }
 
 .sko1 h2{
@@ -94,7 +109,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     position:relative;
-    background-color: white;
+    background-color: #ECF0F1;
 }
 
 .sko2 h2{
@@ -110,7 +125,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    background-color: white;
+    background-color: #ECF0F1;
 }
 
 .sko3 h2{
@@ -122,7 +137,7 @@ body {
 .content button {
     background-color: #409FDD;
     color: black;
-    padding: 20px 25    px;
+    padding: 20px 25px;
     text-align: center;
     grid-row: 2/2;
     grid-column: 2/2;
@@ -132,7 +147,8 @@ body {
     border-style: solid;
     border-color: #2C3E50;
     box-shadow: -2px -1px 5px 3px #2C3E50;
-    font-family: 'Courier New', Courier, monospace;    
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;    
 
 }
 
@@ -151,6 +167,7 @@ button:hover{
    border-color: #2C3E50;
    font-size: 20px;
    font-family: 'Courier New', Courier, monospace;
+   font-weight: bold;
 
 }
 
@@ -171,7 +188,7 @@ button:hover{
 .dropdown-content1 {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #409FDD;
     min-width: 100%;
     z-index: 1;
     overflow: auto;
@@ -180,7 +197,7 @@ button:hover{
 .dropdown-content2 {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #409FDD;
     min-width: 100%;
     z-index: 1;
     overflow: auto;
@@ -191,11 +208,14 @@ button:hover{
     padding: 12px 16px;
     display: block;
     font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-color: #2C3E50;
+    border-width: 3px;
 
 }
 
 .dropdown-content1 a:hover {
-    background-color: white;
+    background-color: #2980B9;
 }
 
 .dropdown-content2 a {
@@ -203,11 +223,14 @@ button:hover{
     padding: 12px 16px;
     display: block;
     font-family: 'Courier New', Courier, monospace;
+    border-style: solid;
+    border-color: #2C3E50;
+    border-width: 3px;
 
 }
 
 .dropdown-content2 a:hover {
-    background-color: white;
+    background-color: #2980B9;
 }
 
 .show {
