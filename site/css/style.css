@@ -53,6 +53,7 @@ body {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(6, 1fr);
+    background-color: #E7403C;
 }
 
 img {
@@ -60,6 +61,23 @@ img {
     grid-column: 1/7;
     height: auto;
     max-width: 100%;
+}
+
+.bild_desk {
+    grid-row: 2/5;
+    grid-column: 1/13;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.bild_desk img {
+    grid-row: 1/5;
+    grid-column: 1/7;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .navherr {
@@ -300,6 +318,7 @@ button:hover{
     grid-column: 1/13;
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(6, 1fr);
+    background-color: #ECF0F1;
 }
 
 .bild img {
@@ -368,6 +387,10 @@ button:hover{
 }
     
 .sko6 {
+    display: none;
+}
+
+.bild_desk{
     display: none;
 }
 }
